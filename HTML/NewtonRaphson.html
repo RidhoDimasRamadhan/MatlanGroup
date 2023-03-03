@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton Raphson</title>
+    <link rel="stylesheet" href="/CSS/NewtonRaphson.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+            <p>Universitas Gundarma</p>
+        </div>
+    
+        <div class="gambar">
+            <img src="/Images/background.png" alt="Gundarma Universitas">
+        </div>
+        
+        <div class="kumpulanSemua">
+            <div class="kalimat">
+                <h1>Metode Newton Raphson</h1>
+            </div>
+    
+            <div class="link">
+                <a href="/HTML/Home.html">HOME</a>
+            </div>
+            
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="KumpulanAwal">
+                        <div class="col-sm">
+                                <h3>Ax<sup>a</sup>+ Yx +  Z</h3>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        
+            
+        <div class="Masukan">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xl-3 mb-2 ">
+                        <div class="waw">
+                            <input type="text" id="InputanKiri" class="inputan">
+                        </div>
+                        <button type="button" id="buttonKiri"class="KlikSaya">Nilai A</button>
+                    </div>
+                    
+                    <div class="col-sm-6 col-xl-3 mb-2 ">
+                        <div class="waw">
+                            <input type="text" id="InputanTengah"class="inputan">
+                        </div>
+                        <button type="button" id="buttonTengah" 
+                        class="KlikSaya">Nilai Y</button>
+                    </div>
+        
+                    <div class="col-sm-6 col-xl-3 mb-2">
+                        <div class="waw">
+                            <input type="text" id="InputanKanan"class="inputan">
+                        </div>
+                        <button type="button" id="buttonKanan"class="KlikSaya">Nilai Z</button>
+                    </div>
+        
+                    <div class="col-sm-6 col-xl-3  mb-2">
+                        <div class="waw">
+                            <input type="text" id="InputanPalingKanan"class="inputan">
+                        </div>
+                        <button type="button" id="buttonPalingKanan" class="KlikSaya">Nilai a</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="keluaran">
+            <div class="container">
+                <div class="row">
+                    <div id="kumpulanSoal">
+                        <label for="" id="kiri"> 
+                            <h1></h1>
+                        </label>
+                        <label for="" id="PalingKanan" class="PalingKanan"> 
+                            <h6><sub></sub></h6>
+                        </label>
+                        <label for="" id="tengah">
+                            <h1></h1>
+                        </label>
+                        <label for="" id="kanan">
+                            <h1></h1>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="kumpulan1">
+            <div class="container">
+                <div class="row">
+                    <h2>Masukan Nilai X<sub>n</sub> dan X<sub>n+1</sub></h2>
+                    <div class="col-xl-6">
+                        <input type="text" id="xninput" class="tai" placeholder="Masukan nilai Xn ...........">
+                    </div>
+                    <div class="col-xl-6">
+                        <input type="text" id="problemm"class="tai" placeholder="Masukan nilai error.......">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <button type="button" id="tekan" class="button">RESULT</button>
+        
+    </div>
+
+    <script src="/JAVA SCRIPT/NewtonRaphson.js"></script>
+</body>
+</html>

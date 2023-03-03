@@ -1,0 +1,114 @@
+body{
+    padding: 0 ;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 4rem;
+}
+
+.navbar p{
+    padding: 4px 0 0 4rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.gambar{
+        position: relative;
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        margin-top: -6rem;
+}
+
+.bawahnavbar{
+    position: absolute;
+    float: left;
+    top: 7rem;
+}
+
+.bawahnavbar .kalimat{
+    margin-left: 4rem;
+    width: 40rem;
+}
+.bawahnavbar .kalimat p{
+    color: #763996;
+    font-weight: 800;
+    
+}
+.bawahnavbar .kalimat h1{
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.bawahnavbar .kalimat h4{
+    width: 25rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+
+
+.bawahnavbar .kalimat .dalamkotak p {
+    border-radius: 4px;
+    border: 1px solid none;
+    background-color: #763996;
+    color: white;
+    width: 15rem;
+    font-size: .8rem;
+    font-weight: 800;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* .kartu .col{
+
+    margin-top: -13rem;
+} */
+
+.flex{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: -16rem;
+}
+
+.flex .kartu a{
+    text-decoration: none;
+    color: black;
+}
+.flex .kartu{
+    width: 20%;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 12px 12px 1px rgba(0, 0, 0, 0.1);
+}
+
+.flex .kartu .judul{
+    font-weight: 800;
+    margin: -1rem 0 0.7rem 0;
+}
+.flex .garis{
+    width: 4rem;
+    height: .2rem;
+    border-radius: 4px;
+    background-color: #E74040;
+    margin-bottom: .7rem;
+}
+
+.flex .kartu:hover{
+    border: 3px solid #763996; 
+    transition-duration: 1s;
+}

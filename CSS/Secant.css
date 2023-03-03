@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 4rem;
+}
+.kumpulanSemua .kalimat{
+    margin-left: 4rem;
+    width: 40rem;
+}
+
+.kumpulanSemua .kalimat h1{
+    font-size: 3rem;
+    color: #763996;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.navbar p{
+    padding: 4px 0 0 4rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.gambar{
+    position: relative;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: -6rem;
+}
+
+.kumpulanSemua{
+    float: left;
+    width: 55rem;
+    position: absolute;
+    top: 0;
+    color: #763996;
+
+    margin-top: 8rem;
+}
+
+.KumpulanAwal h3{
+    display: flex;
+    width: 20rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: 2rem;
+    position: relative;
+    top: -1rem;
+    font-weight: 600;
+    
+}
+.Masukan{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.Masukan .waw .inputan{
+    border: 2px solid #763996; 
+    margin-bottom: 0.5rem;
+}
+.Masukan .KlikSaya{
+    padding: .2rem;
+    background-color: #763996; 
+    color: white;
+    font-weight: 500;
+}
+.Masukan .inputan{
+    height: 2.2rem;
+
+}
+
+.keluaran #kumpulanSoal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.keluaran #kumpulanSoal .PalingKanan{
+    font-size: 2rem;
+}
+
+
+.table .heading,
+.table .ISI{
+    text-align: center;
+}
+
+#muncul{
+    margin-top: 3rem;
+}
+.kumpulan1{
+    margin-top: 3rem;
+}
+.kumpulan1 h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.tai{
+    height: 2rem;
+    border: 2px solid #763996; 
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.8rem;
+    background-color: #763996;
+    color: white;
+    font-weight: 700;
+    width: 10%;
+    margin-top: 1rem;
+    height: 2.2rem;
+}
+.link{
+    width: 5rem;
+    height: 2rem;
+    background-color: #E74040;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -4rem;
+    border-radius: 10px;
+}
+.link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    padding-top: .3rem;
+    color: white;
+    font-weight: 800;
+}
+
+.link:hover{
+    color: #763996;
+    background-color: yellow;
+    transition-duration: 1s;
+}
